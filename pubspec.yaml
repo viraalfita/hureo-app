@@ -1,0 +1,74 @@
+name: attendance
+description: "A Flutter attendance tracking app integrated with Node.js backend."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Navigation
+  cupertino_icons: ^1.0.8
+  curved_navigation_bar: ^1.0.3
+  slide_to_act: ^2.0.2
+  syncfusion_flutter_charts: ^30.2.6+1
+  lottie: ^2.7.0
+  flutter_svg: ^2.0.7
+  bootstrap_icons: ^1.11.3
+  google_fonts: ^6.2.1
+
+  # Networking & HTTP
+  http: ^1.2.2
+
+  # State Management
+  provider: ^6.1.2
+
+  # Storage & Security
+  shared_preferences: ^2.3.2
+  flutter_secure_storage: ^9.2.2
+
+  # Date, Time & Location
+  intl: ^0.19.0
+  geolocator: ^10.0.0
+  flutter_timezone: ^5.0.0
+
+  # Utilities
+  jwt_decoder: ^2.0.1
+  url_launcher: ^6.3.0
+  bloc: ^9.0.1
+  flutter_bloc: ^9.1.1
+  equatable: ^2.0.5
+  meta: ^1.16.0
+  image: ^3.3.0
+  # Face recognition stack (versions saling kompatibel)
+  camera: ^0.11.0+2
+  google_mlkit_face_detection: ^0.11.0
+  tflite_flutter: ^0.12.1
+  dio: ^5.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  # Gunakan versi yang masih memakai image ^3.x supaya kompatibel dengan tflite_flutter_helper
+  flutter_launcher_icons: ^0.11.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/icon/
+    - assets/attendance.json
+    - assets/success.json
+    - assets/images/
+    - assets/models/
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo-hureo.png"
+  min_sdk_android: 21
