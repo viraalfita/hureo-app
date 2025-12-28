@@ -1,5 +1,4 @@
 # 📱 HUREO HRIS App (Attendance Employee)
-<img width="1920" height="960" alt="hureoprev" src="https://github.com/user-attachments/assets/7ca8dab1-d0c6-49ae-b67f-f30b65799973" />
 
 Aplikasi mobile untuk absensi karyawan berbasis **Flutter**, terintegrasi dengan backend **Express.js** dan web admin **Vue.js**.  
 Mendukung fitur check-in, check-out, validasi lokasi kantor (geofence), serta statistik kehadiran harian.
@@ -10,6 +9,8 @@ Mendukung fitur check-in, check-out, validasi lokasi kantor (geofence), serta st
   - Check-in & Check-out dengan lokasi GPS
   - Validasi area perusahaan (geofence + radius)
   - Status *On Time* atau *Late* sesuai jam kerja perusahaan
+- **Face Recognition Attendance**
+  - Verifikasi wajah saat check-in/out via kamera depan
 - **Statistik Kehadiran**
   - Rekap jumlah hadir tepat waktu dan terlambat
 - **Company Hours**
@@ -62,6 +63,9 @@ Mendukung fitur check-in, check-out, validasi lokasi kantor (geofence), serta st
      static const String baseUrl = "http://localhost:5001/api";
      ```
 
+## 📥 Download APK
+- Unduh build terbaru: https://drive.google.com/file/d/1p-ycbL_Wt2SDqy4VsJOn6zEjgKSCnmym/view?usp=drive_link  
+  (sudah diuji di Android, khususnya Oppo A16, dan aman digunakan)
 
 ## 🌐 Backend & Admin Panel
 
@@ -76,4 +80,3 @@ Mendukung fitur check-in, check-out, validasi lokasi kantor (geofence), serta st
 * Pastikan backend **attendance-service** sudah berjalan.
 * Gunakan device nyata (bukan hanya emulator) untuk menguji GPS.
 * Jalankan web admin untuk mengelola data perusahaan & karyawan.
-
