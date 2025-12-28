@@ -1,4 +1,5 @@
 # 📱 HUREO HRIS App (Attendance Employee)
+<img width="1920" height="960" alt="hureoprev" src="https://github.com/user-attachments/assets/604b962d-6900-457c-8ede-c479857a8276" />
 
 Aplikasi mobile untuk absensi karyawan berbasis **Flutter**, terintegrasi dengan backend **Express.js** dan web admin **Vue.js**.  
 Mendukung fitur check-in, check-out, validasi lokasi kantor (geofence), serta statistik kehadiran harian.
